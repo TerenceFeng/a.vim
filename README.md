@@ -18,6 +18,7 @@ A few of quick commands to swtich between source files and header files quickly.
 :IHN cycles through matches
 
 > The following are unmapped after my modification
+
 \<Leader\>ih switches to file under cursor
 \<Leader\>is switches to the alternate file of file under cursor (e.g. on  \<foo.h\> switches to foo.cpp)
 \<Leader\>ihn cycles through matches
