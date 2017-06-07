@@ -1,6 +1,5 @@
-Forked from vim-scripts/a.vim
 
-Modified for personal use
+### Modified for personal use
 
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=31
 
@@ -18,11 +17,10 @@ A few of quick commands to swtich between source files and header files quickly.
 :IHN cycles through matches
 
 > The following are unmapped after my modification
-
 \<Leader\>ih switches to file under cursor
 \<Leader\>is switches to the alternate file of file under cursor (e.g. on  \<foo.h\> switches to foo.cpp)
 \<Leader\>ihn cycles through matches
 
-E.g. if you are editing foo.c and need to edit foo.h simply execute :A and you will be editting foo.h, to switch back to foo.c execute :A again. 
+E.g. if you are editing foo.c and need to edit foo.h simply execute :A and you will be editting foo.h, to switch back to foo.c execute :A again.
 
 Can be configured to support a variety of languages. Builtin support for C, C++ and ADA95
